@@ -9,3 +9,6 @@ exclaim sentence = sentence ++ "!"
 
 average :: Float -> Float -> Float
 average a b = (a + b) / 2.0
+
+maxIt :: Ord a => a -> a -> a
+maxIt x y = if x >= y then x else y
