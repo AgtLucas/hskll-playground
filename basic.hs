@@ -1,3 +1,6 @@
+square :: Int -> Int
+square x = x * x
+
 double :: Int -> Int
 double x = x + x
 
